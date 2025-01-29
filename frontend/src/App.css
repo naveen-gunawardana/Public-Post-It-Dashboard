@@ -1,0 +1,114 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fullscreen scrollable background */
+.board-container {
+  position: absolute;
+  width: 10000px; /* Large virtual space */
+  height: 10000px;
+  background: #f5e1b9; /* Crème color */
+  transform-origin: center;
+}
+
+/* Centered Control Panel */
+.control-panel {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background: rgba(240, 240, 240, 0.075); /* Light transparent gray */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 1000;
+}
+
+/* Button Styling */
+.control-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background: linear-gradient(to right, #ff7e5f, #fedf7b, #9ff665, #85e5fd, #dca0ff, #ffb6b6); /* Full pastel rainbow gradient */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+
+.control-button:hover {
+  
+  box-shadow: 0px 8px 20px rgb(255, 255, 255);
+}
+
+.control-button:focus {
+  outline: none;
+}
+
+/* GitHub & LinkedIn Icons */
+.github-link, .linkedin-link {
+  margin-top: 20px;
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 20px; /* Space them out horizontally */
+}
+
+.github-link a, .linkedin-link a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.github-link a:hover, .linkedin-link a:hover {
+  color: #f7ee9f;
+  
+}
+
+/* Post-It Notes */
+.post-it {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Textarea inside Post-It */
+.post-it textarea {
+  width: 100%;
+  height: 85%;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  resize: none;
+  outline: none;
+  font-weight: bold;
+  text-align: left; /* Align left */
+}
+
+/* Timestamp for Post-It Notes */
+.post-it-timestamp {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding-left: 10px; /* Move it closer to the bottom left corner */
+}
