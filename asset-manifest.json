@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Public-Post-It-Dashboard/static/css/main.ddf151df.css",
-    "main.js": "/Public-Post-It-Dashboard/static/js/main.0a8a2347.js",
+    "main.css": "/Public-Post-It-Dashboard/static/css/main.541eaf53.css",
+    "main.js": "/Public-Post-It-Dashboard/static/js/main.deea516c.js",
     "static/js/488.3bdda3c4.chunk.js": "/Public-Post-It-Dashboard/static/js/488.3bdda3c4.chunk.js",
     "index.html": "/Public-Post-It-Dashboard/index.html",
-    "main.ddf151df.css.map": "/Public-Post-It-Dashboard/static/css/main.ddf151df.css.map",
-    "main.0a8a2347.js.map": "/Public-Post-It-Dashboard/static/js/main.0a8a2347.js.map",
+    "main.541eaf53.css.map": "/Public-Post-It-Dashboard/static/css/main.541eaf53.css.map",
+    "main.deea516c.js.map": "/Public-Post-It-Dashboard/static/js/main.deea516c.js.map",
     "488.3bdda3c4.chunk.js.map": "/Public-Post-It-Dashboard/static/js/488.3bdda3c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddf151df.css",
-    "static/js/main.0a8a2347.js"
+    "static/css/main.541eaf53.css",
+    "static/js/main.deea516c.js"
   ]
 }
