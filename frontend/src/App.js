@@ -5,13 +5,15 @@ import { collection, addDoc, updateDoc, doc, onSnapshot } from "firebase/firesto
 import "./App.css"; // Import CSS file
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-
+// changes made
 // Generate a random bright color for Post-It notes
 const getRandomColor = () => {
   const colors = ["#FFADAD", "#FFD6A5", "#FDFFB6", "#CAFFBF", "#9BF6FF", "#A0C4FF", "#BDB2FF", "#FFC6FF"];
   return colors[Math.floor(Math.random() * colors.length)];
 };
-
+const hello = () => {
+  
+}
 // Get the current date in MM/DD/YY format
 const getCurrentDate = () => {
   const now = new Date();
